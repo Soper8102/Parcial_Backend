@@ -1,0 +1,38 @@
+# ==========================================
+# Archivos de entorno y credenciales (Backend)
+# ==========================================
+.env
+.env.*
+!.env.example
+*.env
+*.key
+*.pem
+*.cert
+*.crt
+*credentials*
+*secret*
+
+# Dependencias
+node_modules/
+jspm_packages/
+
+# Logs del servidor y de npm
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Archivos de configuración de IDEs
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
